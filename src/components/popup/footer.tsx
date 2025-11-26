@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <section className="rounded-2xl border border-slate-800 bg-slate-900/70 p-3">
+    <section className="rounded-2xl border border-border bg-background/70 p-3">
       <div className="flex items-center justify-between">
         <div>
           <p className="text-xs font-semibold text-slate-50">

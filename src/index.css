@@ -19,6 +19,8 @@
   --color-white: var(--recorder-white);
   --color-background: var(--recorder-background);
   --color-text: var(--recorder-text);
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-shadow: rgba(2, 6, 23, 0.6);
 }
 
 @layer base {
@@ -48,7 +50,7 @@
 
   .btn-secondary {
     @apply inline-flex items-center justify-center gap-2 font-semibold rounded-lg transition-all duration-200;
-    background: linear-gradient(180deg, var(--recorder-secondary), #2563eb);
+    background: linear-gradient(180deg, var(--recorder-primary), #2563eb);
     color: var(--recorder-white);
     padding: 8px 12px;
     box-shadow: 0 6px 18px rgba(37, 99, 235, 0.14);

@@ -10,7 +10,7 @@ export const Header = () => {
     <header className="flex items-center justify-between">
       <div>
         <h1 className="text-base font-semibold flex items-center gap-2">
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-primary shadow-recorder-xl">
+          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-secondary shadow-recorder-xl">
             <span className="h-3 w-3 rounded-full bg-white" />
           </span>
           <span>ProRecorder</span>
