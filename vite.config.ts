@@ -12,9 +12,4 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  build: {
-    watch: {
-      include: ["src/**", "public/background.ts"],
-    },
-  },
 });
